@@ -116,7 +116,7 @@ footer {
     border: solid 5px black;
 }
 
-@media only screen and (min-width: 431px) and (max-width: 1024px) {
+@media only screen and (max-width: 431px){
 
     /* HEADER */
     header {
@@ -134,6 +134,28 @@ footer {
 
     .wrapper {
         height: 10vh;
+    }
+
+    /* MAIN */
+
+    .container2 h1 {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+
+    .container2 p {
+        font-size: 15px;
+    }
+
+    /* FOOTER */
+
+    .part{
+        margin-bottom: 30px;
+    }
+
+    .set{
+        height: 250px;
+        width: 400px;
     }
 }
 
