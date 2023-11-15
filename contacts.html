@@ -1,23 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacts</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contacts.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&family=Josefin+Sans:wght@500&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&family=Josefin+Sans:wght@500&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
     <header>
         <nav>
             <div class="wrapper">
-                <div class="icon"><a href="index.html"><img src="assets/oww1.png" alt="OWW Full logo" height="100px"></a></div>
-                <div class="middle-text">Prenota un tavolo</div>
+                <div class="icon"><a href="index.html"><img src="assets/oww1.png" alt="OWW Full logo"
+                            height="100px"></a></div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">La nostra storia</a></li>
+                    </ul>
+                    <img src="assets/threelines.png" alt="hamburger" height="0">
                 </div>
             </div>
         </nav>
     </header>
-    
+
+    <!-- MAIN -->
+
+    <main>
+        <h1>Contattaci</h1>
+        <div class="container">
+            <div class="form">
+                <form action="">
+                    <div class="form-element">
+                        <label for="name">Nome</label>
+                        <input type="text" id="name" name="name">
+                    </div>
+                    <div class="form-element">
+                        <label for="surname">Cognome</label>
+                        <input type="text" id="surname" name="surname">
+                    </div>
+                    <div class="form-element">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+                    <div class="form-element">
+                        <label for="textarea">Messaggio</label>
+                        <textarea name="message" id="textarea" placeholder="inserisci qui il tuo messaggio"></textarea>
+                    </div>
+                    <div class="form-element flex">
+                        <label for="radio">Accetta Privacy</label>
+                        <input type="radio" id="privacy" name="privacy" value="privacy">
+                    </div>
+                    <div class="form-element flex">
+                        <label for="checkbox">Iscriviti alla Newsletter</label>
+                        <input type="checkbox" id="checkbox" name="checkbox">
+                    </div>
+                    <div class="form-element">
+                        <button type="submit">INVIA</button>
+                    </div>
+                </form>
+            </div>
+            <div class="img-container">
+                <img src="assets/image3.jpg" alt="Immagine" height="500px">
+            </div>
+
+        </div>
+
+    </main>
+
+    <!-- FOOTER -->
+
+    <footer>
+        <div class="firstbox">
+            <div class="part"><a href="index.html"><img src="assets/logo2.png" alt="Logo" height="100px"></a></div>
+            <div class="part">
+                <h2>Pagine</h2>
+                <p><a href="index.html">Home</a></p>
+                <p><a href="about.html">About</a></p>
+                <p><a href="contacts.html">Contatti</a></p>
+            </div>
+            <div class="part">
+                <h2>Link</h2>
+                <p>Cookie Policy</p>
+                <p>Privacy Policy</p>
+            </div>
+        </div>
+        <div class="secondbox">
+            <p>Copyright ©2023 Giacomo Giraldi</p>
+        </div>
+    </footer>
 </body>
+
 </html>
